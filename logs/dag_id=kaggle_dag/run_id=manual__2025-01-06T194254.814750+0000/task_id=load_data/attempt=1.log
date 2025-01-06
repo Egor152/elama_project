@@ -1,0 +1,22 @@
+[2025-01-06T19:43:08.231+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-06T19:43:08.277+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaggle_dag.load_data manual__2025-01-06T19:42:54.814750+00:00 [queued]>
+[2025-01-06T19:43:08.302+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaggle_dag.load_data manual__2025-01-06T19:42:54.814750+00:00 [queued]>
+[2025-01-06T19:43:08.304+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-06T19:43:08.350+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_data> on 2025-01-06 19:42:54.814750+00:00
+[2025-01-06T19:43:08.367+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'kaggle_dag', 'load_data', 'manual__2025-01-06T19:42:54.814750+00:00', '--job-id', '886', '--raw', '--subdir', 'DAGS_FOLDER/kaggle_dag.py', '--cfg-path', '/tmp/tmpc12nrwnl']
+[2025-01-06T19:43:08.366+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=132) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-06T19:43:08.374+0000] {standard_task_runner.py:72} INFO - Started process 133 to run task
+[2025-01-06T19:43:08.373+0000] {standard_task_runner.py:105} INFO - Job 886: Subtask load_data
+[2025-01-06T19:43:08.479+0000] {task_command.py:467} INFO - Running <TaskInstance: kaggle_dag.load_data manual__2025-01-06T19:42:54.814750+00:00 [running]> on host 4837db6a7d72
+[2025-01-06T19:43:08.675+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaggle_dag' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2025-01-06T19:42:54.814750+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-06T19:42:54.814750+00:00'
+[2025-01-06T19:43:08.677+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-06T19:43:08.722+0000] {base.py:84} INFO - Retrieving connection 'pg_connect'
+[2025-01-06T19:43:09.043+0000] {kaggle_dag.py:51} INFO - Данные вставились в БД
+[2025-01-06T19:43:09.045+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-06T19:43:09.061+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-06T19:43:09.062+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=kaggle_dag, task_id=load_data, run_id=manual__2025-01-06T19:42:54.814750+00:00, execution_date=20250106T194254, start_date=20250106T194308, end_date=20250106T194309
+[2025-01-06T19:43:09.115+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-06T19:43:09.158+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-06T19:43:09.164+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
