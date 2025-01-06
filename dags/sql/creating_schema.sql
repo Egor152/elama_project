@@ -5,10 +5,10 @@ daily_time_spent_on_site float,
 age SMALLINT,
 area_income float,
 daily_internet_usage float,
-ad_topic_line VARCHAR,
-city VARCHAR,
+ad_topic_line VARCHAR(55),
+city VARCHAR(30),
 male SMALLINT,
-country VARCHAR,
+country VARCHAR(60),
 timestamp timestamp,
 clicked_on_ad SMALLINT
 );

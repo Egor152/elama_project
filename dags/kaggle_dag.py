@@ -13,16 +13,18 @@ pg_hook = PostgresHook(postgres_conn_id='pg_connect')
 
 
 args = {
-   'owner': 'airflow',  # Информация о владельце DAG
-   'start_date': datetime(2024, 12, 31),  # Время начала выполнения пайплайна
+   'owner': 'airflow',  
+   'start_date': datetime(2024, 12, 31),   
 }
 
-curl_command = """
-curl -L -o /opt/airflow/data/advertisement-click-on-ad.zip\
-  https://www.kaggle.com/api/v1/datasets/download/gabrielsantello/advertisement-click-on-ad
-"""
 
-def unpack_zipfile(filename, path_to_zip, path_to_extract):#/opt/airflow/dags/
+# команда для скачиания датасета из kaggle
+curl_command = """curl -L -o /opt/airflow/data/advertisement-click-on-ad.zip\
+                  https://www.kaggle.com/api/v1/datasets/download/gabrielsantello/advertisement-click-on-ad
+               """
+
+# функция распаковки zip-файла с датасетом
+def unpack_zipfile(filename, path_to_zip, path_to_extract):
     zip_file_path = path_to_zip
     file_to_extract = filename
 
@@ -30,6 +32,7 @@ def unpack_zipfile(filename, path_to_zip, path_to_extract):#/opt/airflow/dags/
         zip_ref.extract(file_to_extract, path_to_extract)
 
 
+# функция вставки данных в БД
 def insert_data():
     pg_conn = pg_hook.get_conn()
     connection = pg_conn
@@ -49,17 +52,18 @@ def insert_data():
 
 
 with DAG(
-    dag_id='kaggle_dag',  # Имя DAG
-    schedule_interval=None,  # Периодичность запуска, например, "00 15 * * *"
-    default_args=args,  # Базовые аргументы
+    dag_id='kaggle_dag',  
+    schedule_interval=None,  
+    default_args=args,  
 ) as dag:
-
+    # задача-заглушка для начала DAG-а
     start_task = BashOperator(
     task_id='start_task',
     bash_command='echo "Here we start! "', 
     dag=dag,
     )
-
+    
+    # задача для создания схемы в БД
     creating_schema_task = PostgresOperator(
         task_id = 'creating_schema_stg',
         postgres_conn_id = 'pg_connect',
@@ -67,6 +71,7 @@ with DAG(
         dag=dag,
     )
 
+    # задача для удаления данных в таблице. Обеспечивает идемпотентность DAG-а
     clearing_table_task = PostgresOperator(
         task_id = 'clearing_table_task',
         postgres_conn_id = 'pg_connect',
@@ -74,11 +79,13 @@ with DAG(
         dag=dag,
     )
 
+    # задача для скачивания датасета из kaggle
     get_data_from_kaggle = BashOperator(
         task_id='get_data_from_kaggle',
         bash_command=curl_command,
         dag=dag,)
 
+    # задача для распаковки данных из zip-файла
     unpack_data = PythonOperator(
         task_id = 'unpack_kaggle_data',
         python_callable=unpack_zipfile,
@@ -87,11 +94,13 @@ with DAG(
                     'path_to_extract':'/opt/airflow/data'}
         )
     
+    # задача вставки данных в БД
     load_data = PythonOperator(
         task_id = 'load_data',
         python_callable=insert_data
         )
 
+    # задача-заглушка для конца DAG-а
     end_task = BashOperator(
     task_id='end_task',
     bash_command='echo "Here we end! "',
