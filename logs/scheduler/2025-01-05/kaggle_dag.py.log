@@ -1,0 +1,119 @@
+[2025-01-05T22:10:00.686+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:10:00.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:10:00.690+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:10:00.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:10:00.782+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:10:01.084+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:10:01.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:10:01.110+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:10:01.109+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:10:01.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.470 seconds
+[2025-01-05T22:10:31.456+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:10:31.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:10:31.463+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:10:31.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:10:31.533+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:10:31.586+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:10:31.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:10:31.611+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:10:31.610+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:10:31.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.201 seconds
+[2025-01-05T22:11:01.717+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:11:01.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:11:01.721+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:11:01.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:11:01.756+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:11:01.787+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:11:01.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:11:01.804+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:11:01.804+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:11:01.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.114 seconds
+[2025-01-05T22:11:32.007+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:11:32.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:11:32.014+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:11:32.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:11:32.081+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:11:32.139+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:11:32.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:11:32.178+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:11:32.178+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:11:32.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.252 seconds
+[2025-01-05T22:12:02.435+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:02.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:12:02.444+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:02.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:02.533+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:02.603+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:02.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:12:02.653+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:02.652+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:12:02.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.278 seconds
+[2025-01-05T22:12:05.620+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:05.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:12:05.629+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:05.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:05.717+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:05.783+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:05.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:12:05.821+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:05.821+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:12:05.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.266 seconds
+[2025-01-05T22:12:36.124+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:36.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:12:36.134+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:36.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:36.222+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:12:36.301+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:36.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:12:36.347+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:12:36.346+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:12:36.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.299 seconds
+[2025-01-05T22:13:06.557+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:13:06.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:13:06.565+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:13:06.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:13:06.639+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:13:06.695+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:13:06.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:13:06.725+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:13:06.725+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:13:06.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.224 seconds
+[2025-01-05T22:13:37.037+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:13:37.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:13:37.045+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:13:37.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:13:37.101+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:13:37.160+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:13:37.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:13:37.202+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:13:37.201+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:13:37.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.489 seconds
+[2025-01-05T22:14:07.836+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:14:07.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:14:07.842+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:14:07.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:14:07.898+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:14:07.946+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:14:07.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:14:08.188+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:14:08.188+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:14:08.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.398 seconds
+[2025-01-05T22:14:38.571+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:14:38.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:14:38.581+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:14:38.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:14:38.651+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:14:39.075+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:14:39.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:14:39.107+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:14:39.107+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:14:39.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.592 seconds
+[2025-01-05T22:15:09.488+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:15:09.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:15:09.496+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:15:09.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:15:09.913+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:15:09.961+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:15:09.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:15:09.988+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:15:09.987+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:15:10.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.552 seconds
+[2025-01-05T22:15:40.364+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:15:40.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:15:40.374+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:15:40.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:15:40.459+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:15:40.514+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:15:40.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:15:40.558+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:15:40.558+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:15:40.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.245 seconds
+[2025-01-05T22:16:10.665+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:16:10.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:16:10.673+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:16:10.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:16:10.755+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:16:10.825+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:16:10.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:16:10.857+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:16:10.857+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:16:10.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.257 seconds
+[2025-01-05T22:16:34.125+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:16:34.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:16:34.132+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:16:34.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:16:34.206+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:16:34.254+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:16:34.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:16:34.285+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:16:34.284+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:16:34.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.215 seconds
+[2025-01-05T22:17:04.429+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:17:04.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:17:04.435+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:17:04.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:17:04.508+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:17:04.560+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:17:04.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:17:04.586+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:17:04.585+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:17:04.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.210 seconds
+[2025-01-05T22:17:34.905+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:17:34.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kaggle_dag.py for tasks to queue
+[2025-01-05T22:17:34.913+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:17:34.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:17:34.980+0000] {processor.py:925} INFO - DAG(s) 'kaggle_dag' retrieved from /opt/airflow/dags/kaggle_dag.py
+[2025-01-05T22:17:35.021+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:17:35.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T22:17:35.048+0000] {logging_mixin.py:190} INFO - [2025-01-05T22:17:35.047+0000] {dag.py:4180} INFO - Setting next_dagrun for kaggle_dag to None, run_after=None
+[2025-01-05T22:17:35.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kaggle_dag.py took 0.195 seconds
