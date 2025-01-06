@@ -1,0 +1,24 @@
+[2025-01-06T17:36:36.412+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-06T17:36:36.453+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaggle_dag.end_task manual__2025-01-06T17:36:17.082564+00:00 [queued]>
+[2025-01-06T17:36:36.471+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaggle_dag.end_task manual__2025-01-06T17:36:17.082564+00:00 [queued]>
+[2025-01-06T17:36:36.473+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-06T17:36:36.499+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): end_task> on 2025-01-06 17:36:17.082564+00:00
+[2025-01-06T17:36:36.509+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=115) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-06T17:36:36.512+0000] {standard_task_runner.py:72} INFO - Started process 116 to run task
+[2025-01-06T17:36:36.513+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'kaggle_dag', 'end_task', 'manual__2025-01-06T17:36:17.082564+00:00', '--job-id', '845', '--raw', '--subdir', 'DAGS_FOLDER/kaggle_dag.py', '--cfg-path', '/tmp/tmpcfqhyjnn']
+[2025-01-06T17:36:36.516+0000] {standard_task_runner.py:105} INFO - Job 845: Subtask end_task
+[2025-01-06T17:36:36.602+0000] {task_command.py:467} INFO - Running <TaskInstance: kaggle_dag.end_task manual__2025-01-06T17:36:17.082564+00:00 [running]> on host f560492d2669
+[2025-01-06T17:36:36.788+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaggle_dag' AIRFLOW_CTX_TASK_ID='end_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-06T17:36:17.082564+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-06T17:36:17.082564+00:00'
+[2025-01-06T17:36:36.791+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-06T17:36:36.823+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-01-06T17:36:36.826+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Here we end! "']
+[2025-01-06T17:36:36.844+0000] {subprocess.py:99} INFO - Output:
+[2025-01-06T17:36:36.848+0000] {subprocess.py:106} INFO - Here we end!
+[2025-01-06T17:36:36.849+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-06T17:36:36.903+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-06T17:36:36.905+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=kaggle_dag, task_id=end_task, run_id=manual__2025-01-06T17:36:17.082564+00:00, execution_date=20250106T173617, start_date=20250106T173636, end_date=20250106T173636
+[2025-01-06T17:36:36.971+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-06T17:36:37.003+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-06T17:36:37.008+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
