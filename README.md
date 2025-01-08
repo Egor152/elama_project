@@ -17,3 +17,5 @@
 Инструкция по развертыванию проекта - https://docs.google.com/document/d/1tXLrSt0OwNF9Z8VuWf49s3ZDyupYhjybH5rD3zApl5U/edit?usp=sharing
 
 Инструкция по установке DBeaver - https://docs.google.com/document/d/10gtcR_ik0IWKefjvoglit1yxHvx-W_WVjYllyfwuOqw/edit?usp=sharing
+
+Файл "Мысли о проекте" содержит мои размышления о проекте, чтобы Вы могли понять, как я рассуждаю и почему я сделал что-то так, а не иначе.
